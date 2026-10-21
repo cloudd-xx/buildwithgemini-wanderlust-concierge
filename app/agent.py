@@ -27,7 +27,7 @@ from google.cloud import firestore, storage
 import google.genai as genai
 from google.genai import types
 
-MODEL = "gemini-3.8-flash"
+MODEL = "gemini-3.7-flash"
 FIRESTORE_PROJECT_ID = "qwiklabs-gcp-03-6da6214c076e"
 LOCATION = "us-east1"
 MEMORY_BANK_ID = "8635066245785321472"
