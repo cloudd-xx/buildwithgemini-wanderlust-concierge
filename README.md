@@ -1,6 +1,6 @@
 # 🌍 Wanderlust Concierge
 
-An intelligent travel planning and concierge AI agent built with **Google Agent Development Kit (ADK)** and powered by **Gemini 2.5/3.1/3.7**. Wanderlust Concierge functions as an end-to-end travel advisor: searching destinations, retrieving live meteorological forecasts, looking up points of interest via Google Maps & Places, generating personalized itineraries and budget estimates, synthesizing vintage postcards and cinematic drone videos, and remembering traveler preferences and dietary/allergy constraints across sessions.
+An intelligent travel planning and concierge AI agent built with **Google Agent Development Kit (ADK)** and powered by **Gemini 3.8/3.1/2.5**. Wanderlust Concierge functions as an end-to-end travel advisor: searching destinations, retrieving live meteorological forecasts, looking up points of interest via Google Maps & Places, generating personalized itineraries and budget estimates, synthesizing vintage postcards and cinematic drone videos, and remembering traveler preferences and dietary/allergy constraints across sessions.
 
 ![Wanderlust Concierge Demo](docs/assets/demo.gif)
 
@@ -41,9 +41,9 @@ An intelligent travel planning and concierge AI agent built with **Google Agent 
 | `find_nearby_places` | **Google Places API (New)** | Finds top-rated dining, attractions, and shopping around target coordinates. |
 | `generate_destination_postcard`| **Gemini 3.1 Flash Lite Image** | Generates artistic travel postcards, uploads to GCS, and saves as an artifact. |
 | `generate_destination_video` | **Gemini Omni Flash Preview** | Generates cinematic drone travel videos, uploads to GCS, and saves as an artifact. |
-| `compose_itinerary` | **Gemini 3.7 Flash** | Builds day-by-day travel agent itineraries with morning/afternoon/evening plans. |
+| `compose_itinerary` | **Gemini 3.8 Flash** | Builds day-by-day travel agent itineraries with morning/afternoon/evening plans. |
 | `calculate_trip_budget` | **Gemini / Python Sandbox** | Calculates itemized trip cost breakdowns across lodging, food, transit, and activities. |
-| `recommend_hotels` | **Gemini 3.7 Flash** | Matches lodging options tailored to the traveler's budget and location preferences. |
+| `recommend_hotels` | **Gemini 3.8 Flash** | Matches lodging options tailored to the traveler's budget and location preferences. |
 
 ---
 
